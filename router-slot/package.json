@@ -1,0 +1,70 @@
+{
+	"name": "router-slot",
+	"version": "1.4.5",
+	"description": "A powerful web component router",
+	"license": "MIT",
+	"author": "Andreas Mehlsen",
+	"types": "index.d.ts",
+	"module": "index.js",
+	"main": "index.js",
+	"bugs": {
+		"url": "https://github.com/andreasbm/web-router/issues"
+	},
+	"homepage": "https://github.com/andreasbm/web-router#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andreasbm/web-router.git"
+	},
+	"keywords": [
+		"webapp",
+		"custom",
+		"elements",
+		"powerful",
+		"routes",
+		"routing",
+		"route",
+		"router",
+		"slot",
+		"fragments",
+		"vanilla",
+		"web",
+		"component",
+		"router",
+		"navigation",
+		"zero dependencies"
+	],
+	"scripts": {
+		"b:demo:dev": "rollup -c rollup.config.ts --environment NODE_ENV:dev",
+		"b:demo:prod": "rollup -c rollup.config.ts --environment NODE_ENV:prod",
+		"s:dev": "rollup -c rollup.config.ts --watch --environment NODE_ENV:dev",
+		"s:prod": "rollup -c rollup.config.ts --watch --environment NODE_ENV:prod",
+		"s": "npm run s:dev",
+		"test": "karma start",
+		"ncu": "ncu -u -a && npm update && npm install",
+		"b:lib": "node pre-build.js && tsc -p tsconfig.build.json",
+		"readme": "node node_modules/.bin/readme generate",
+		"postversion": "npm run readme && npm run b:lib",
+		"publish:patch": "np patch --contents=dist --no-cleanup",
+		"publish:minor": "np minor --contents=dist --no-cleanup",
+		"publish:major": "np major --contents=dist --no-cleanup"
+	},
+	"devDependencies": {
+		"@appnest/readme": "^1.2.5",
+		"@appnest/web-config": "0.4.33",
+		"lit-element": "^2.2.1",
+		"node-typescript-compiler": "^2.0.0",
+		"weightless": "0.0.37"
+	},
+	"contributors": [
+		{
+			"name": "Andreas Mehlsen",
+			"url": "https://twitter.com/andreasmehlsen",
+			"img": "https://avatars1.githubusercontent.com/u/6267397?s=460&v=4"
+		},
+		{
+			"name": "You?",
+			"img": "https://joeschmoe.io/api/v1/random",
+			"url": "https://github.com/andreasbm/web-router/blob/master/CONTRIBUTING.md"
+		}
+	]
+}
