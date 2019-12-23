@@ -1,5 +1,5 @@
-import { CATCH_ALL_WILDCARD, PARAM_IDENTIFIER, TRAVERSE_FLAG } from "../config";
-import { constructPathWithBasePath, path as getPath, queryString, stripSlash } from "./url";
+import { CATCH_ALL_WILDCARD, PARAM_IDENTIFIER, TRAVERSE_FLAG } from "../config.js";
+import { constructPathWithBasePath, path as getPath, queryString, stripSlash } from "./url.js";
 /**
  * Determines whether the path is active.
  * If the full path starts with the path and is followed by the end of the string or a "/" the path is considered active.

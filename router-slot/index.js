@@ -1,5 +1,5 @@
-export * from "./router-slot";
-export * from "./router-link";
-export * from "./util";
-export * from "./config";
+export * from "./router-slot.js";
+export * from "./router-link.js";
+export * from "./util/index.js";
+export * from "./config.js";
 //# sourceMappingURL=index.js.map

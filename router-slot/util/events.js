@@ -1,4 +1,4 @@
-import { GLOBAL_ROUTER_EVENTS_TARGET } from "../config";
+import { GLOBAL_ROUTER_EVENTS_TARGET } from "../config.js";
 /**
  * Dispatches a did change route event.
  * @param $elem

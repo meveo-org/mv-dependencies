@@ -1,5 +1,5 @@
-import { GLOBAL_ROUTER_EVENTS_TARGET } from "./config";
-import { addListener, isPathActive, queryParentRouterSlot, queryString, removeListeners, slashify } from "./util";
+import { GLOBAL_ROUTER_EVENTS_TARGET } from "./config.js";
+import { addListener, isPathActive, queryParentRouterSlot, queryString, removeListeners, slashify } from "./util/index.js";
 const template = document.createElement("template");
 template.innerHTML = `<slot></slot>`;
 /**

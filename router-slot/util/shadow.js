@@ -1,4 +1,4 @@
-import { ROUTER_SLOT_TAG_NAME } from "../config";
+import { ROUTER_SLOT_TAG_NAME } from "../config.js";
 /**
  * Queries the parent router.
  * @param $elem

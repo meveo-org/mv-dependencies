@@ -1,7 +1,7 @@
-export * from "./events";
-export * from "./history";
-export * from "./router";
-export * from "./shadow";
-export * from "./url";
-export * from "./anchor";
+export * from "./events.js";
+export * from "./history.js";
+export * from "./router.js";
+export * from "./shadow.js";
+export * from "./url.js";
+export * from "./anchor.js";
 //# sourceMappingURL=index.js.map
