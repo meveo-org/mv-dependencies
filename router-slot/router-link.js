@@ -152,7 +152,7 @@ export class RouterLink extends HTMLElement {
             e.stopPropagation();
             return;
         }
-        history.pushState(null, "", `${this.absolutePath}${this.preserveQuery ? queryString() : ""}`);
+        history.pushState(null, "", `${path}${this.preserveQuery ? queryString() : ""}`);
     }
 }
 window.customElements.define("router-link", RouterLink);
