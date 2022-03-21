@@ -1,0 +1,19 @@
+{
+  "name": "mv-dependencies",
+  "version": "1.0.0",
+  "description": "Dependencies for meveo webcomponents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meveo-org/mv-dependencies.git"
+  },
+  "author": "Tony Alejandro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meveo-org/mv-dependencies/issues"
+  },
+  "homepage": "https://github.com/meveo-org/mv-dependencies#readme"
+}
